@@ -102,6 +102,7 @@ describe(`venmo on tablet `, () => {
 
 
     it(`should NOT display button`, (done) => {
+        assert.equal(1,2)
         mockProp(window.__TEST_FUNDING_ELIGIBILITY__[fundingSource], 'eligible', true);
         
         const paypalButtons = window.paypal.Buttons({

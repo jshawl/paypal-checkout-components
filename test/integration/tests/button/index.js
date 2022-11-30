@@ -11,7 +11,7 @@ import './layout';
 import './style';
 import './instant';
 import './popupBridge';
-import './standalone';
+// import './standalone';
 import './clone';
 import './renderOrder';
 import './nonce';
